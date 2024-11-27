@@ -1,4 +1,4 @@
-//Şevval Bilğin 2221221013
+
 package com.mycompany.sevval_bilgin_stock_personel_tracking;
 
 import java.sql.Connection;
@@ -27,7 +27,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Company_db {
 
-    public static final String connectionString = "jdbc:mysql://127.0.0.1:3306/stock_company_personels?user=root&password=sevval";
+    public static final String connectionString = "jdbc:mysql://127.0.0.1:3306/stock_company_personels?user=*&password=*";
 
     public static Connection conn;
     public static ArrayList<Personel> recorded_personels = new ArrayList<>();
